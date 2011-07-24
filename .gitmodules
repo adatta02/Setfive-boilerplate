@@ -1,0 +1,6 @@
+[submodule "blueprint-css"]
+	path = blueprint-css
+	url = https://github.com/joshuaclayton/blueprint-css.git
+[submodule "html5-boilerplate"]
+	path = html5-boilerplate
+	url = https://github.com/paulirish/html5-boilerplate.git
