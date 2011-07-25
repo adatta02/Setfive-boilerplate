@@ -73,3 +73,22 @@ input[type='submit']:hover, button:hover, input[type='reset']:hover {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;  
 }
+
+
+.inputInvalid {
+    background-image: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+.inputValid {
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+label, legend {
+  font-family: 'Droid Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
