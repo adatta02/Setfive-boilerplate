@@ -98,3 +98,8 @@ label, legend {
   padding-right: 25px;
   background-position: 100% 50% !important;
 }
+
+.padded {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

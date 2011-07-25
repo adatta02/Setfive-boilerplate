@@ -14,8 +14,8 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&v2' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="html5-boilerplate/css/style.css">
-  <link rel="stylesheet" href="blueprint-css/blueprint/screen.css">
+  <link rel="stylesheet" href="vendor/html5-boilerplate/css/style.css">
+  <link rel="stylesheet" href="vendor/blueprint-css/blueprint/screen.css">
   <link rel="stylesheet" href="css/setfive_base.css">
   <script src="html5-boilerplate/js/libs/modernizr-2.0.min.js"></script>
   <script src="html5-boilerplate/js/libs/respond.min.js"></script>
@@ -153,18 +153,36 @@
               </optgroup>
             </select>
           </p>
+           
+          <div class="padded">
+            <ul class="listless">
+              <li><label>Valid select box</label></li>
+              <li><div class="select-container inputValid">
+                <select>
+                  <option selected="selected" value="">Please Select...</option>
+                  <option value="12">Allston</option>
+                  <option value="2">Arlington</option>
+                </select>
+              </div>
+              </li>
+            </ul>
+          </div>
           
-          <ul class="listless">
-            <li><label>Valid select box</label></li>
-            <li><div class="select-container inputValid">
-              <select>
-                <option selected="selected" value="">Please Select...</option>
-                <option value="12">Allston</option>
-                <option value="2">Arlington</option>
-              </select>
-            </div>
-            </li>
-          </ul>
+          <div class="clear"></div>
+          
+          <div class="padded">
+            <ul class="listless">
+              <li><label>Valid select box</label></li>
+              <li><div class="select-container inputInvalid">
+                <select>
+                  <option selected="selected" value="">Please Select...</option>
+                  <option value="12">Allston</option>
+                  <option value="2">Arlington</option>
+                </select>
+              </div>
+              </li>
+            </ul>
+          </div>
           
           <div class="clear"></div>
           
@@ -269,6 +287,8 @@
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
+    
+    $.blankify();
   </script>
 
 
