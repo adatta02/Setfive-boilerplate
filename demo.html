@@ -14,8 +14,8 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&v2' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="vendor/html5-boilerplate/css/style.css">
-  <link rel="stylesheet" href="vendor/blueprint-css/blueprint/screen.css">
+  <link rel="stylesheet" href="html5-boilerplate/css/style.css">
+  <link rel="stylesheet" href="blueprint-css/blueprint/screen.css">
   <link rel="stylesheet" href="css/setfive_base.css">
   <script src="html5-boilerplate/js/libs/modernizr-2.0.min.js"></script>
   <script src="html5-boilerplate/js/libs/respond.min.js"></script>
@@ -280,7 +280,7 @@
   </div>  
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    
+  <script src="jquery.blank/jquery.blank.js"></script>
   <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
@@ -288,7 +288,9 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
     
-    $.blankify();
+    jQuery(document).ready( function($){
+    	 $.blankify();
+    });
   </script>
 
 
