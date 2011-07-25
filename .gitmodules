@@ -4,3 +4,6 @@
 [submodule "html5-boilerplate"]
 	path = html5-boilerplate
 	url = git://github.com/paulirish/html5-boilerplate.git
+[submodule "jquery-validation"]
+	path = jquery-validation
+	url = git://github.com/jzaefferer/jquery-validation.git
