@@ -1,0 +1,257 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="html5-boilerplate/css/style.css">
+  <link rel="stylesheet" href="blueprint-css/blueprint/screen.css">
+  <link rel="stylesheet" href="css/setfive_base.css">
+  <script src="html5-boilerplate/js/libs/modernizr-2.0.min.js"></script>
+  <script src="html5-boilerplate/js/libs/respond.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container" class="container">
+    <header>
+
+    </header>
+    <div id="main" role="main">
+
+      <h3>Misc. Elements</h3>
+      
+      <div class="span-8">
+        <div class="box">
+          A box class
+        </div>
+      </div>
+      
+      <div class="span-8">
+        <div class="box-shadow">
+          A box-shadow class
+        </div>
+      </div>
+      
+      <div class="span-8 last">
+        <ul class="listless">
+          <li>The listless UL class.</li>
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+
+      <h3>Forms</h3>
+      <hr>
+
+      <div class="span-12">
+
+        <form id="dummy" action="" method="post">
+
+          <fieldset>
+            <legend>Simple sample form</legend>
+            <p>
+              <label for="dummy0">Text input (title)</label><br>
+              <input type="text" class="title" name="dummy0" id="dummy0" placeholder="Field with class .title">
+            </p>
+
+            <p>
+              <label for="dummy1">Another field</label><br>
+              <input type="text" class="text" id="dummy1" name="dummy1" placeholder="Field with class .text">
+            </p>
+
+            <p>
+              <label for="dummy2">Textarea</label><br>
+              <textarea name="dummy2" id="dummy2" rows="5" cols="20"></textarea>
+            </p>
+
+            <p>
+              <label for="dummy3">A password field</label><br>
+              <input type="password" class="text" id="dummy3" name="dummy3" placeholder="Password field with class .text">
+            </p>
+
+            <p>
+              <label for="dummy_url">A URL field</label><br>
+              <input type="url" class="text" id="dummy_url" name="dummy_url" placeholder="http://example.com">
+            </p>
+
+            <p>
+              <label for="dummy_email">An email field</label><br>
+              <input type="email" class="text" id="dummy_email" name="dummy_email" placeholder="email-with-class-text@example.com">
+            </p>
+
+            <p>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </p>
+
+          </fieldset>
+        </form>
+
+      </div>
+      <div class="span-12 last">
+
+        <div class="error">
+          This is a &lt;div&gt; with the class <strong>.error</strong>. <a href="#">Link</a>.
+        </div>
+        <div class="notice">
+          This is a &lt;div&gt; with the class <strong>.notice</strong>. <a href="#">Link</a>.
+        </div>
+        <div class="info">
+          This is a &lt;div&gt; with the class <strong>.info</strong>. <a href="#">Link</a>.
+        </div>
+        <div class="success">
+          This is a &lt;div&gt; with the class <strong>.success</strong>. <a href="#">Link</a>.
+        </div>
+
+        <fieldset>
+          <legend>Select, checkboxes, lists</legend>
+
+          <p>
+            <label for="dummy3">Select field</label><br>
+            <select id="dummy3" name="dummy3">
+              <option value="1">Ottawa</option>
+              <option value="2">Calgary</option>
+              <option value="3">Moosejaw</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="dummy4">Select with groups</label><br>
+            <select id="dummy4" name="dummy4">
+              <option>Favorite pet</option>
+              <optgroup label="mammals">
+                <option>dog</option>
+                <option>cat</option>
+                <option>rabbit</option>
+                <option>horse</option>
+              </optgroup>
+              <optgroup label="reptiles">
+                <option>iguana</option>
+                <option>snake</option>
+              </optgroup>
+            </select>
+          </p>
+
+          <p><label>Radio buttons</label><br>
+            <input type="radio" name="example"> Radio one<br>
+            <input type="radio" name="example"> Radio two<br>
+            <input type="radio" name="example"> Radio three<br>
+          </p>
+
+          <p><label>Checkboxes</label><br>
+            <input type="checkbox"> Check one<br>
+            <input type="checkbox"> Check two<br>
+            <input type="checkbox"> Check three<br>
+          </p>
+
+        </fieldset>
+
+      </div>
+
+      <div class="span-24 last">
+
+        <fieldset>
+          <legend>Alignment</legend>
+
+          <p>
+            <label for="dummy5">Select field</label>
+            <select id="dummy5" name="dummy5">
+              <option value="1">Ottawa</option>
+              <option value="2">Calgary</option>
+              <option value="3">Moosejaw</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="dummy6">Text input (title)</label>
+            <input type="text" class="title" name="dummy6" id="dummy6" value="Field with class .title">
+          </p>
+
+          <p>
+            <label for="dummy7">Select field</label>
+            <select id="dummy7" name="dummy7">
+              <option value="1">Ottawa</option>
+              <option value="2">Calgary</option>
+              <option value="3">Moosejaw</option>
+            </select>
+            <label for="dummy8">Another field</label>
+            <input type="text" class="text" id="dummy8" name="dummy8" value="Field with class .text">
+          </p>
+
+        </fieldset>
+
+      </div>
+
+      <div class="span-24 last">
+        <form action="" method="post" class="inline">
+          <fieldset>
+            <legend>A form with class "inline"</legend>
+            <div class="span-3">
+              <label for="a">Label A:</label>
+              <select id="a" name="a" >
+                <option value="0">All</option>
+              </select>
+            </div>
+            <div class="span-2">
+              some text
+            </div>
+            <div class="span-3">
+              <input type="checkbox" id="o" name="o" value="true" checked="checked" class="checkbox">checkbox one
+            </div>
+            <div class="span-3">
+              <label for="b">Label B:</label>
+              <select id="b" name="b" >
+                <option value="0">All</option>
+              </select>
+            </div>
+            <div class="span-2">
+              <a href="#">A Hyperlink</a>
+            </div>
+            <div class="span-8">
+              <input type="text" class="text" id="q" name="q" value="Field with class .text">
+            </div>
+            <div class="span-2 last">
+              <input type="submit" value="submit" class="button">
+            </div>
+          </fieldset>
+
+        </form>
+
+      </div>
+
+    </div>
+    <footer>
+
+    </footer>
+  </div>  
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>

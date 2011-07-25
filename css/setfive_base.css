@@ -1,0 +1,75 @@
+.box {
+  background-color: #F5F5F5;
+}
+
+.box-shadow {
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-box-shadow: 0px 0px 3px 3px #ddd;
+    -moz-box-shadow: 0px 0px 3px 3px #ddd;
+    box-shadow: 0px 0px 3px 3px #ddd;
+    padding: 1.5em;
+}
+
+.listless {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+input[type='text'], textarea, input[type='password'], input[type='url'], input[type='email'] {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type='text']:focus, textarea:focus, input[type='password']:focus, input[type='url']:focus, input[type='email']:focus {
+  -moz-box-shadow: 0 0 0 2px #73BDFA, 0 0 2px 0 rgba(115, 189, 250, 0.7);
+  -webkit-box-shadow: 0 0 0 2px #73BDFA, 0 0 2px 0 rgba(115, 189, 250, 0.7);
+  box-shadow: 0 0 0 2px #73BDFA, 0 0 2px 0 rgba(115, 189, 250, 0.7);
+  border: 1px solid #ddd;
+}
+
+select {
+    font-size: 14px;
+    padding: 3px;   
+    border: 1px solid #ddd;
+}
+
+select option {
+    margin: 3px;   
+}
+
+input[type='submit'], button, input[type='reset'] { 
+  display:inline-block;
+  -webkit-transition: -webkit-box-shadow 0.25s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.25s ease-in-out;
+  -o-transition: -o-box-shadow 0.25s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  background: -moz-linear-gradient(center top , #EDEDED, #C4C4C4) repeat scroll 0 0 transparent;
+  border: 1px solid #B6B6B6;
+  color: #4F4F4F;
+  cursor: pointer;
+  cursor: hand;
+}
+
+input[type='submit']:hover, button:hover, input[type='reset']:hover {
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset; 
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255,255,255,0.8) inset;  
+}
