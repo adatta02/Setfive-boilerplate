@@ -7,3 +7,6 @@
 [submodule "jquery-validation"]
 	path = jquery-validation
 	url = git://github.com/jzaefferer/jquery-validation.git
+[submodule "jquery.blank"]
+	path = jquery.blank
+	url = git://github.com/jeffh/jquery.blank.git
