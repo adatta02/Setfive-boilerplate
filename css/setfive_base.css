@@ -92,3 +92,9 @@ label, legend {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.select-container {
+  float: left;
+  padding-right: 25px;
+  background-position: 100% 50% !important;
+}
